@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Silva Song "silva.song@aliyun.com"
+MAINTAINER szhmery "szhmery@gmail.com"
 
 #安装JDK
 RUN apt-get update
