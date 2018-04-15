@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER szhmery "szhmery@gmail.com"
 
 #安装JDK
-RUN apt-get update
+RUN add-apt-repository ppa:openjdk-r/ppa && apt-get update
 RUN apt-get install -y openjdk-7-jdk && apt-get install -y wget
 
 #安装tomcat
